@@ -88,7 +88,8 @@ li a{
 .fill .joinbtn{
     border-radius: 20px;
     border-style: none;
-    padding: 15px;
+   font-size: 15px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     background-color: rgb(255, 230, 0);
@@ -133,6 +134,9 @@ li a{
     .rightprt, .leftprt{
         width: 100vw;
     }
+    .rightprt{
+        margin-left: 0;
+    }
     li a{
         font-size: 13px;
     }
@@ -148,7 +152,6 @@ li a{
     }
     .contentbody h3{
         font-size: 13px;
-        flex-wrap: wrap;
     }
     .fill input{
         width: 250px;
@@ -157,7 +160,7 @@ li a{
         font-size: 10px;
     }   
     .fill .joinbtn{
-        margin: 0 5px;
+        margin: 5px 10px;
         padding: 10px;
         font-size: 12px;
     }
